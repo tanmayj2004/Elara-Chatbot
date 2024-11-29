@@ -1,0 +1,30 @@
+.image-container {
+    position: relative;
+    text-align: center;
+    width: 50%;
+    display: flex;
+}
+
+/* Image style */
+.image-container img {
+     
+    height: 750px;
+}
+
+/* Text on top of the image */
+.text-on-image, .text-on-site {
+    position: absolute;
+    top: 30%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    color: #E6E6FA;
+    font-size: 36px;  /* Adjust the font size to a fixed size */
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    white-space: nowrap;  /* Prevent text from wrapping */
+    line-height: 2rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
