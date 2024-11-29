@@ -73,7 +73,7 @@ const generateApiResponse = async (incomingMessageDiv) => {
 const showLoadingAnimation = () => {
     const html = `<div class="message incoming loading">
             <div class="message-content">
-                <img src="images/gemini.svg" alt="Gemini Image" class="avtar" id="rotate" ">
+                <img src="image/gemini.svg" alt="Gemini Image" class="avtar" id="rotate" ">
                 <p class="text"></p> 
                     <div class="loading-indicator ">
                         <div class="loading-bar" ></div>
@@ -107,7 +107,7 @@ const handleOutgoingChat = () => {
      isResponseGenerate= true;
 
     const html = `<div class="message-content">
-                <img src="images/user2.jpg" alt="user Image" class="avtar"  ">
+                <img src="image/user2.jpg" alt="user Image" class="avtar"  ">
                 <p class="text"></p>
             </div>`;
 

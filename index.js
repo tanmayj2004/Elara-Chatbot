@@ -17,8 +17,8 @@ app.get("/elara", (req, res) => {
             { text: "Write JavaScript code to sum all elements in an array.", icon: "code" }
         ],
         messages: [
-            { type: "outgoing", avatar: "/image/user.jpg", text: "Hello there!" },
-            { type: "incoming", avatar: "/image/user2.jpeg", text: "How can I assist you today?" }
+            { type: "outgoing", avatar: "gemini.svg", text: "Hello there!" },
+            { type: "incoming", avatar: "user2.jpg", text: "How can I assist you today?" }
         ]
     });
 });
