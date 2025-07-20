@@ -19,10 +19,6 @@ A modern conversational chatbot built using Node.js and the Gemini API, featurin
 - Responsive layout with suggestions and chat bubbles
 - `/frontend` directory
 
-### Preview
-
-![Chatbot UI](frontend/images/gemini.svg) *(Replace with actual UI screenshot)*
-
 ---
 
 ## 🛠️ Backend
