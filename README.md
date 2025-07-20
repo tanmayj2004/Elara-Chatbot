@@ -1,4 +1,4 @@
-# Elare Chatbot 🤖
+# Elara Chatbot 🤖
 
 A modern conversational chatbot built using Node.js and the Gemini API, featuring a responsive UI, theme toggling, local chat history, and typing animation effects.
 
